@@ -1,0 +1,149 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+.header{
+    width: 1350px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(209, 187, 161);
+}
+.menu {
+    float: right;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family:steak;
+    color:rgba(1, 16, 102, 0.582);
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper{
+    width: 1350px;
+    margin: auto;
+    position: relative;
+    color: #fff;
+    background-image: url(./images/wallpaper.jpg);
+    background-size: cover;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+img {
+    width: 600px;
+    height: auto;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:rgba(1, 16, 102, 0.582);
+}
+.kolom .des {
+    font-family: 'comic sans ms';
+    font-weight: 100px;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:rgb(148, 106, 54);
+    width: 100%;
+    line-height: 85px;
+}
+
+.kolom .keterangan{
+    font-size: 25px;
+    font-weight:200px;
+    font-family:'Courier New';
+    color:rgba(1, 16, 102, 0.582);
+}
+.fa {
+    border-radius: 20px;
+    margin-top :20px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    font-weight: bold; 
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    color: black;
+}
+.fa-github {
+    color: black;
+}
+.fa-youtube {
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+   
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: auto;
+    }
+
+}
